@@ -17,7 +17,7 @@ public class HW_3 {
         System.out.println();
         matMass ();
         System.out.println();
-        omeMass (7,4);
+        omeMass (10,4);
         System.out.println();
         minMaxMass ();
     }
