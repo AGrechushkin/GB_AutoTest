@@ -4,7 +4,6 @@
  * @version 17.02.2022
  */
 package com.company;
-
 import java.util.Arrays;
 
 public class HW_3 {
