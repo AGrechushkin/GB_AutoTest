@@ -4,7 +4,6 @@
  * @version 17.02.2022
  */
 package com.company;
-
 import java.util.Arrays;
 
 public class HW_3 {
@@ -17,7 +16,7 @@ public class HW_3 {
         System.out.println();
         matMass ();
         System.out.println();
-        omeMass (10,4);
+        System.out.println(Arrays.toString(omeMass (10,4)));
         System.out.println();
         minMaxMass ();
     }
@@ -75,11 +74,11 @@ public class HW_3 {
         }
     }
 
-    static void omeMass (int len, int initialValue){
+    static int[] omeMass (int len, int initialValue){
         int[] arr = new int[len];
         System.out.println("Task 5");
         Arrays.fill(arr, initialValue);
-        System.out.println(Arrays.toString(arr));
+        return arr;
     }
 
     static void minMaxMass (){
