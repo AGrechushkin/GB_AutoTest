@@ -16,7 +16,7 @@ public class HW_3 {
         System.out.println();
         matMass ();
         System.out.println();
-        System.out.println(Arrays.toString(omeMass (10,4)));
+        omeMass (10,4);
         System.out.println();
         minMaxMass ();
     }
@@ -74,11 +74,11 @@ public class HW_3 {
         }
     }
 
-    static int[] omeMass (int len, int initialValue){
+    static void omeMass (int len, int initialValue){
         int[] arr = new int[len];
         System.out.println("Task 5");
         Arrays.fill(arr, initialValue);
-        return arr;
+        System.out.println(Arrays.toString(arr));
     }
 
     static void minMaxMass (){
