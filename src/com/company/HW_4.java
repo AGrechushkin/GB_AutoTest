@@ -1,3 +1,8 @@
+/**
+ * Java 1. Homework #4
+ * @author Aleksey Grechushkin
+ * @version 26.02.2022
+ */
 package com.company;
 
 import java.util.Random;
